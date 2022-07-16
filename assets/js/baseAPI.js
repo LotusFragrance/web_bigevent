@@ -1,6 +1,6 @@
 $.ajaxPrefilter(options => {
     //统一拼接路径
-    options.url = 'http://www.liulongbin.top:3007' + options.url;
+    options.url = 'http://big-event-api-t.itheima.net' + options.url;
     //统一为有权限的接口设置headers
     if (options.url.indexOf('/my/') !== -1) {
         options.headers = {
